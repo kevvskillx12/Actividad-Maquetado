@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/*encabezado */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e0e0e0;
+}
+/*enlaces de los encabezados xd*/
+nav a, .top-right a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #1a0dab;
+    font-size: 14px;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+.search-box {
+    width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.buttons {
+    margin-top: 20px;
+   
+}
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.links {
+    margin-top: 20px;
+}
+.links a {
+    text-decoration: none;
+    color: #1a0dab;
+    font-size: 14px;
+}
+/*pie de páginaxd */
+footer {
+    margin-top: 12cm;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e0e0e0;   
+}
+/*para los enlaces */
+footer a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #1a0dab;
+    font-size: 14px;
+}
+/*para el texto copyright */
+footer p {
+    margin-top: 10px;
+    color: #777;
+    font-size: 12px;
+}

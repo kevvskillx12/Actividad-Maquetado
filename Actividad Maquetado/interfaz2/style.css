@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20cm;
+    width: 50cm;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /*para definir num y tamaño de las columnas de los contenedores*/
+    width: 90%;
+    gap: 20px;
+}
+
+.producto {
+    text-align: center;
+}
+
+.producto img {
+    width: 150px;
+    height: auto;
+}
+
+.producto h3 {
+    font-size: 1rem;
+    margin: 10px 0 5px 0;
+}
+
+.producto p {
+    font-size: 0.9rem;
+    color: gray;
+}
